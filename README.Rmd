@@ -10,14 +10,15 @@ knitr::opts_chunk$set(echo = TRUE)
 
 ## Module description <img src="images/uhh_logo.png" align="right" width="150" style="margin-left: 20px"/>
 
-This is the second out of four modules in the data science program newly introduced into the Bachelor Programs of the **Biology Department, University of Hamburg**, which I'm coordinating. *Data Science 2* introduces students into the world of inferential statistics, with a focus on the classic frequentist approaches using R.
+This is the second out of four modules in the data science program newly introduced into the Bachelor Programs of the **Biology Department, University of Hamburg**. *Data Science 2* introduces students into the world of inferential statistics, with a focus on the classic frequentist approaches using R.
 
+Course creator and instructor: **Dr. Saskia Otto**
 
 ## This repository
 
-This Github repository holds just the course-specific HTML lecture slides (all in German) produced with R Markdown. The URL for the lecture slides is
+This Github repository holds just the course-specific HTML lecture slides (all in German) produced with R Markdown. 
 
-[https://uham-bio.github.io/bsc-data-science-2/](https://uham-bio.github.io/bsc-data-science-2/)
+The URL for the lecture slides is: [https://uham-bio.github.io/bsc-data-science-2/](https://uham-bio.github.io/bsc-data-science-2/)
 
 
 ## License

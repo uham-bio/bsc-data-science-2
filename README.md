@@ -5,16 +5,18 @@ Data Science 2 - Introduction to statistics and experimental design
 
 This is the second out of four modules in the data science program newly
 introduced into the Bachelor Programs of the **Biology Department,
-University of Hamburg**, which I’m coordinating. *Data Science 2*
-introduces students into the world of inferential statistics, with a
-focus on the classic frequentist approaches using R.
+University of Hamburg**. *Data Science 2* introduces students into the
+world of inferential statistics, with a focus on the classic frequentist
+approaches using R.
+
+Course creator and instructor: **Dr. Saskia Otto**
 
 ## This repository
 
 This Github repository holds just the course-specific HTML lecture
-slides (all in German) produced with R Markdown. The URL for the lecture
-slides is
+slides (all in German) produced with R Markdown.
 
+The URL for the lecture slides is:
 <https://uham-bio.github.io/bsc-data-science-2/>
 
 ## License
