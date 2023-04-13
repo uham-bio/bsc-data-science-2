@@ -1,0 +1,496 @@
+
+/* ====================================================================
+ ========================= STYLE: singleQuestion Quiz =================
+ ====================================================================== */
+
+/* General stuff */
+.sqq-clearfix::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+/*  ------- Main widget container -------- */
+
+.sqq-quiz {
+  width: 100%!important;
+  margin-left: auto!important;
+  margin-right: auto!important;
+  border-radius: 5px !important;
+  background-color: #ECEEEF!important;
+}
+
+
+/* ------------ Title div ------------- */
+
+/*  THe following did not work --> wrote it as inline CSS in the .js file */
+/* .sqq-quiz p.sqq-title {
+  font-weight: 900!important;
+  margin: 0 auto !important;
+  text-align: center !important;
+} */
+
+/* ------------ Question div ------------- */
+
+.sqq-question {
+  width: 100% !important;
+  background-color: #DDDDDD;
+  padding-top: 5px !important;
+  padding-bottom: 5px !important;
+}
+
+.sqq-question-p  {
+  font-weight: bold !important;
+  color: #1C1C1C;
+  margin: 0px !important;
+}
+
+
+/* ------------ Answer options container ------------- */
+
+.sqq-options-container {
+  width: 100% !important;
+  min-height: 120px;
+  padding-bottom: 10px !important;
+}
+
+
+.sqq-option-row {
+  width: 100% !important;
+  background-color: #F4F7F7 !important;
+  cursor: pointer !important;
+  border-top: solid 0.75pt #DEDEDE !important;
+  display: flex;
+}
+
+.sqq-option-row::after {
+  content: "";
+  clear: both;
+  display: block;
+}
+
+
+.sqq-option-cols {
+  flex: 1;
+  x-justify-content: space-around;
+  x-align-items: stretch;
+  position: relative;
+}
+
+.sqq-option-col1 {
+  width: 90px;
+  flex: 0 0 90px;
+}
+
+
+
+/* ------------ Individual options ------------- */
+
+.sqq-div-letter {
+  background-color: #3498db;
+  text-align: center!important;
+  border-radius: 4px !important;
+  margin: 0 20px !important;
+  position: absolute;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+p.sqq-p-lett {
+  text-align: center;
+  color: white !important;
+  font-weight: 600 !important;
+  margin: 0px !important;
+}
+
+div.sqq-div-text {
+    padding-right: 20px;
+}
+
+/* Set vertical padding to be (height - line-height) / 2
+    to make sure text is in the center */
+.sqq-p-text {
+  color: #1C1C1C !important;
+  margin: 0px !important;
+}
+
+
+
+/* --------- Responsive Design --------------*/
+
+@media screen and (max-width: 400px) {
+  .sqq-question-p {
+    padding-top: 0px !important;
+    padding-bottom: 0px !important;
+  }
+}
+
+
+
+
+
+
+
+
+/* ====================================================================
+ ========================= STYLE: multiQuestion Quiz ==================
+ ====================================================================== */
+
+/* General stuff */
+.mqq-clearfix::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+/*  ------- Main widget container -------- */
+
+.mqq-quiz {
+  margin: 0 !important;
+  width: 100%!important;
+  font-weight: 400 !important;
+  text-align: left !important;
+  overflow: hidden;
+  border-radius: 5px !important;
+}
+
+
+
+/*  ------- The header --------  */
+.mqq-header {  /* a div tag */
+  width: 100% !important;
+  padding: 15px !important;
+  display: flex !important;
+}
+
+
+.mqq-left-title {
+  flex: 1 !important;
+  x-justify-content: space-around !important;
+  x-align-items: stretch !important;
+  position: relative !important;
+  font-weight: bold !important;
+}
+
+.mqq-right-title {
+  text-align: right;
+}
+
+/* Responsive design for header */
+
+@media (max-width: 500px) {
+  .mqq-header {
+    flex-direction: column;
+  }
+  .mqq-right-title {
+    flex: 1 !important;
+    width: 100% !important;
+    text-align: left;
+    margin-top: 0.5em;
+  }
+}
+
+
+/* ----- The quiz content containers ------ */
+
+.mqq-content {
+  margin-top:5px !important;
+}
+
+.mqq-container-fluid {
+  padding-right: 15px !important;
+  padding-left: 15px !important;
+  margin-right: auto !important;
+  margin-left: auto !important;
+}
+
+.mqq-row {
+  margin-right: -15px !important;
+  margin-left: -15px !important;
+}
+
+.mqq-col {
+  position: relative !important;
+  padding-right: 15px !important;
+  padding-left: 15px !important;
+}
+
+.mqq-quiz-body {
+  margin-top:15px !important;
+  padding-bottom:20px !important;
+  border-radius: 0 0 5px 5px !important;
+}
+
+
+/*  -------- The form with the actual question and answer options ------- */
+
+.mqq-form-group {
+  padding: 0 !important;
+  border: 0 !important;
+  margin-top: 0 !important;
+  margin-bottom: 1rem !important;
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+}
+
+h4.mqq-question-header {
+  font-weight: 500 !important;
+  margin-bottom: .5rem !important;
+  margin-top: 0 !important;
+}
+
+.mqq-option-block-container {
+  margin-top:10px !important;
+  width: 90%;
+}
+
+.mqq-option-block {
+  padding: 10px !important;
+  margin-bottom: 2px !important;
+  position: relative !important;
+  display: block !important;
+}
+
+.mqq-form-check-label {
+  display: inline-block !important;
+  margin-bottom: 0 !important;
+  cursor: pointer !important;
+}
+
+.mqq-quiz label.mqq-form-check-label input.mqq-form-check-input {
+  padding: 0 !important;
+  position: absolute !important;
+}
+
+.mqq-quiz span.optionval {
+  font-weight: normal !important;
+  display: block;
+}
+
+
+
+/* ------The buttons section --------- */
+
+.mqq-button-container {
+  position: relative;
+  width: 90%;
+  padding: 10px 0;
+}
+
+button.mqq-btn {
+  color: #fff !important;
+  background: #28a745 !important;
+  border-color: #28a745 !important;
+  display: inline-block !important;
+  font-weight: 400 !important;
+  text-align: center !important;
+  vertical-align: middle !important;
+  -webkit-user-select: none !important;
+  -moz-user-select: none !important;
+  -ms-user-select: none !important;
+  user-select: none !important;
+  border: 1px solid transparent !important;
+  border-radius: .25rem !important;
+  text-shadow: none;
+  transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out !important;
+}
+.mqq-btn.disabled, .mqq-btn:disabled {
+  color: #fff !important;
+  background: #28a745 !important;
+  border-color: #28a745 !important;
+  opacity: .65 !important;
+}
+
+.mqq-btn:not(:disabled):not(.disabled) {
+  cursor: pointer !important;
+}
+
+.mqq-btn:hover {
+color: #fff !important;
+background: #218838 !important;
+border-color: #1e7e34 !important;
+}
+
+.mqq-previous {
+  margin-right: 5px !important;
+  margin-top: 10px !important;
+}
+
+.mqq-next {
+  margin-left: 5px !important;
+  margin-top: 10px !important;
+}
+
+.mqq-quiz button, select {
+text-transform: none !important;
+}
+
+.mqq-quiz button, input {
+overflow: visible !important;
+}
+
+.mqq-timer {
+  position: absolute;
+  right: 0;
+  text-align: right;
+  border: none;
+  margin-top: 5px;
+  background: none;
+}
+
+
+
+/* --------- The result page ------------- */
+
+
+.mqq-quiz .result h3.mqq-res-header {
+  font-weight: 700 !important;
+  margin-top: 0;
+  border-bottom:1px solid #ccc !important;
+}
+
+.mqq-last-row {
+  border-bottom:1px  solid #ccc !important;
+}
+
+.mqq-result-question {
+  font-weight: bold !important;
+}
+
+.mqq-result-answer,
+.mqq-last-row {
+  font-weight: normal;
+}
+
+.mqq-result-answer span {
+  font-weight: normal !important;
+}
+
+.mqq-wrong {
+  color: #FF0000 !important;
+  font-weight: bold;
+}
+.mqq-correct {
+  color: green !important;
+  font-weight: bold;
+}
+
+
+
+
+
+
+
+
+/* ====================================================================
+ ========================= STYLE: dragNdrop Quiz =================
+ ====================================================================== */
+
+
+/*  ------- Main widget container -------- */
+
+.ddq-quiz {
+  position: relative;
+  display: block;
+}
+
+
+/* ------------ Header div ------------- */
+
+.ddq-quiz .ddq-header {
+  display: block;
+  min-height: 10px;
+}
+
+.ddq-quiz p.ddq-title {
+  font-weight: bold;
+  display: block;
+  padding: 0 !important;
+}
+
+.ddq-quiz p.ddq-description {
+  display: block;
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+
+/* ------------ Cloze div ------------- */
+
+.ddq-quiz .ddq-cloze {
+  display: block;
+  padding: 0 20px;
+}
+
+/* Responsive design  */
+@media (max-width: 580px) {
+  .ddq-quiz .ddq-cloze{
+    width: 90% !important;
+  }
+}
+
+.ddq-quiz .ddq-cloze .ddq-target {
+  display: inline-block;
+  border-radius: 5px;
+  text-align: center;
+}
+
+
+/* ------------ Answer options container ------------- */
+
+.ddq-quiz .ddq-options-container {
+  position: relative;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+.ddq-quiz .ddq-options{
+  display: table;
+  padding: 5px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+
+/* ------------ Individual options ------------- */
+
+.ddq-quiz span.ddq-option {
+  cursor: pointer;
+  display: inline-block;
+  border-radius: 5px;
+}
+
+
+/* ------------ Feedback ------------- */
+
+.ddq-lightbox-bg {
+  display: none;
+  position: absolute;
+  z-index: 100;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.7);
+}
+.ddq-confirm {
+  display: none;
+  position: absolute;
+  z-index: 110;
+  text-align: center;
+  width: 50%;
+  top: 35%;
+  left: 25%;
+}
+.ddq-confirm p.ddq-confirm-p {
+  background: #72bd4d;
+  border-radius: 5px;
+  font-size: 30px;
+  font-weight: bold;
+  color: white;
+  padding: 30px;
+}
