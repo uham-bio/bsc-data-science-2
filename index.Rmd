@@ -1,0 +1,47 @@
+---
+title: "Data Science 2"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+**Grundlagen der Statistik und des experimentellen Designs (BIO-06.61-015 und BMARSYS-18.61-847)**
+
+
+## Modulbeschreibung <img src="images/uhh_logo.png" align="right" width="150" style="margin-left: 20px"/>
+
+Dies ist das zweite von vier Modulen des neu in den Bachelor-Studiengängen des Fachbereichs **Biologie** der **Universität Hamburg** eingeführten Data Science Programms. *Data Science 2* führt die Studierenden in die Welt der Datenerhebung, des experimentellen Designs und der inferenziellen Statistik ein, wobei der Schwerpunkt auf den klassischen frequentistischen Ansätzen mit R liegt.
+
+Modulverantwortliche: **Dr. Saskia Otto**
+
+## Vorlesungsfolien
+
+Diese GitHub Repository enthält die folgenden Kurs-spezifischen HTML-Vorlesungsfolien (alle auf Deutsch), die bald von der aktuellen Kurs-Website abgerufen werden können: [https://datasciencebiology.blogs.uni-hamburg.de](https://datasciencebiology.blogs.uni-hamburg.de/course-portfolio/data-science-2/)
+
+
+- 01 [Einführung in die mathematische Statistik](https://saskiaotto.github.io/uham-bio-data-science-2/01-introduction.html#/title-slide)
+- 02 [Wahrscheinlichkeitstheorie](https://saskiaotto.github.io/uham-bio-data-science-2/02-probability-theory.html#/title-slide)
+- 03 [Wahrscheinlichkeitsverteilungen](https://saskiaotto.github.io/uham-bio-data-science-2/03-probability-distributions.html#/title-slide)
+- 04 [Schätzverfahren oder was ist ein KI?](https://saskiaotto.github.io/uham-bio-data-science-2/04-estimation.html#/title-slide)
+- 05 [Hypothesentest oder was ist eine H0?](https://saskiaotto.github.io/uham-bio-data-science-2/05-hypothesis-testing.html#/title-slide)
+- 06 [6-Klassische Tests (Teil 1)](https://saskiaotto.github.io/uham-bio-data-science-2/06-classical-tests-part1.html#/title-slide)
+- 07 [Klassische Tests (Teil 2)](https://saskiaotto.github.io/uham-bio-data-science-2/07-classical-tests-part2.html#/title-slide)
+- 08 [Mehrstichprobentests & Einführung in die Varianzanalyse](https://saskiaotto.github.io/uham-bio-data-science-2/08-1way-anova.html#/title-slide)
+- 09 [Korrelation & Transformation](https://saskiaotto.github.io/uham-bio-data-science-2/09-correlation-transformation.html#1)
+- 10 [Linear Regression](https://saskiaotto.github.io/uham-bio-data-science-2/10-regression.html#/title-slide)
+- 11 [Poweranalyse](https://saskiaotto.github.io/uham-bio-data-science-2/11-power-analysis.html#/title-slide)
+- 12 [Grundlagen des experimentellen Designs (Teil 1)](https://saskiaotto.github.io/uham-bio-data-science-2/12-basics-exp-design-part1.html#/title-slide)
+- 13 [Grundlagen des experimentellen Designs (Teil 2)](https://saskiaotto.github.io/uham-bio-data-science-2/13-basics-exp-design-part2.html#/title-slide)
+
+
+## Lizenz
+
+<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">
+  <img alt="Creative Commons License" style="border-width:0"
+        src="https://i.creativecommons.org/l/by-sa/4.0/80x15.png" />
+</a>
+
+Diese Arbeit is lizenziert unter einer [Creative Commons Attribution-ShareAlike 4.0 International License ](http://creativecommons.org/licenses/by-sa/4.0/) mit Ausnahme der entliehenen und mit Quellenangabe versehenen Abbildungen.
