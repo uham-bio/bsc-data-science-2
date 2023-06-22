@@ -17,7 +17,7 @@ This Github repository holds just the course-specific HTML lecture
 slides (all in German) produced with R Markdown.
 
 The URL for the lecture slides is:
-<https://uham-bio.github.io/bsc-data-science-2/>
+<https://saskiaotto.github.io/uham-bio-data-science-2/>
 
 ## License
 
