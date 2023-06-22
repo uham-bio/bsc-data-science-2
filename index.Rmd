@@ -27,15 +27,13 @@ Diese GitHub Repository enthält die folgenden Kurs-spezifischen HTML-Vorlesungs
 - 03 [Wahrscheinlichkeitsverteilungen](https://saskiaotto.github.io/uham-bio-data-science-2/03-probability-distributions.html#/title-slide)
 - 04 [Schätzverfahren oder was ist ein KI?](https://saskiaotto.github.io/uham-bio-data-science-2/04-estimation.html#/title-slide)
 - 05 [Hypothesentest oder was ist eine H0?](https://saskiaotto.github.io/uham-bio-data-science-2/05-hypothesis-testing.html#/title-slide)
-- 06 [6-Klassische Tests (Teil 1)](https://saskiaotto.github.io/uham-bio-data-science-2/06-classical-tests-part1.html#/title-slide)
-- 07 [Klassische Tests (Teil 2)](https://saskiaotto.github.io/uham-bio-data-science-2/07-classical-tests-part2.html#/title-slide)
+- 06 [Klassische Tests (Teil 1: t-Tests und nicht-parametrische Alternativen)](https://saskiaotto.github.io/uham-bio-data-science-2/06-classical-tests-part1.html#/title-slide)
+- 07 [Klassische Tests (Teil 2: Chi-Quadrat-Tests)](https://saskiaotto.github.io/uham-bio-data-science-2/07-classical-tests-part2.html#/title-slide)
 - 08 [Mehrstichprobentests & Einführung in die Varianzanalyse](https://saskiaotto.github.io/uham-bio-data-science-2/08-1way-anova.html#/title-slide)
-- 09 [Korrelation & Transformation](https://saskiaotto.github.io/uham-bio-data-science-2/09-correlation-transformation.html#1)
+- 09 [Korrelation & Transformation](https://saskiaotto.github.io/uham-bio-data-science-2/09-correlation-transformation.html#/title-slide)
 - 10 [Linear Regression](https://saskiaotto.github.io/uham-bio-data-science-2/10-regression.html#/title-slide)
-- 11 [Poweranalyse](https://saskiaotto.github.io/uham-bio-data-science-2/11-power-analysis.html#/title-slide)
-- 12 [Grundlagen des experimentellen Designs (Teil 1)](https://saskiaotto.github.io/uham-bio-data-science-2/12-basics-exp-design-part1.html#/title-slide)
-- 13 [Grundlagen des experimentellen Designs (Teil 2)](https://saskiaotto.github.io/uham-bio-data-science-2/13-basics-exp-design-part2.html#/title-slide)
-
+- 11 [Grundlagen des experimentellen Designs (Teil 1: Grundgleichung der Versuchsplanung & Designtypen)](https://saskiaotto.github.io/uham-bio-data-science-2/11-basics-exp-design-part1.html#/title-slide)
+- 12 [Grundlagen des experimentellen Designs (Teil 2: Kriterien der Versuchsplanung & Poweranalyse )](https://saskiaotto.github.io/uham-bio-data-science-2/12-basics-exp-design-part2.html#/title-slide)
 
 ## Lizenz
 
