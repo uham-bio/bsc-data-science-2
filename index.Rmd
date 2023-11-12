@@ -17,7 +17,7 @@ Dies ist das zweite von vier Modulen des neu in den Bachelor-Studiengängen des 
 
 Modulverantwortliche: **Dr. Saskia Otto**
 
-## Vorlesungsfolien
+## Vorlesungsfolien  SoSe 2023
 
 Diese GitHub Repository enthält die folgenden Kurs-spezifischen HTML-Vorlesungsfolien (alle auf Deutsch), die bald von der aktuellen Kurs-Website abgerufen werden können: [https://datasciencebiology.blogs.uni-hamburg.de](https://datasciencebiology.blogs.uni-hamburg.de/course-portfolio/data-science-2/)
 
