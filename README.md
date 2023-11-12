@@ -13,8 +13,10 @@ Course creator and instructor: **Dr. Saskia Otto**
 
 ## This repository
 
-This Github repository holds just the course-specific HTML lecture
-slides (all in German) produced with R Markdown.
+This Github repository holds just the links to the course-specific
+interactive HTML lecture slides (all in German) produced with R Markdown
+and Quarto using templates from the
+[UHHformats](https://github.com/uham-bio/UHHformats) package.
 
 The URL for the lecture slides is:
 <https://saskiaotto.github.io/uham-bio-data-science-2/>
