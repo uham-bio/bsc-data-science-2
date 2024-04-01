@@ -17,7 +17,7 @@ Dies ist das zweite von vier Modulen des neu in den Bachelor-Studiengängen des 
 
 Modulverantwortliche: **Dr. Saskia Otto**
 
-## Vorlesungsfolien  SoSe 2023
+## Vorlesungsfolien  SoSe 2024
 
 Diese GitHub Repository enthält die folgenden Kurs-spezifischen HTML-Vorlesungsfolien (alle auf Deutsch), die bald von der aktuellen Kurs-Website abgerufen werden können: [https://datasciencebiology.blogs.uni-hamburg.de](https://datasciencebiology.blogs.uni-hamburg.de/course-portfolio/data-science-2/)
 
@@ -30,10 +30,10 @@ Diese GitHub Repository enthält die folgenden Kurs-spezifischen HTML-Vorlesungs
 - 06 [Klassische Tests (Teil 1: t-Tests und nicht-parametrische Alternativen)](https://saskiaotto.github.io/uham-bio-data-science-2/06-classical-tests-part1.html#/title-slide)
 - 07 [Klassische Tests (Teil 2: Chi-Quadrat-Tests)](https://saskiaotto.github.io/uham-bio-data-science-2/07-classical-tests-part2.html#/title-slide)
 - 08 [Mehrstichprobentests & Einführung in die Varianzanalyse](https://saskiaotto.github.io/uham-bio-data-science-2/08-1way-anova.html#/title-slide)
-- 09 [Korrelation & Transformation](https://saskiaotto.github.io/uham-bio-data-science-2/09-correlation-transformation.html#/title-slide)
-- 10 [Linear Regression](https://saskiaotto.github.io/uham-bio-data-science-2/10-regression.html#/title-slide)
-- 11 [Grundlagen des experimentellen Designs (Teil 1: Grundgleichung der Versuchsplanung & Designtypen)](https://saskiaotto.github.io/uham-bio-data-science-2/11-basics-exp-design-part1.html#/title-slide)
-- 12 [Grundlagen des experimentellen Designs (Teil 2: Kriterien der Versuchsplanung & Poweranalyse )](https://saskiaotto.github.io/uham-bio-data-science-2/12-basics-exp-design-part2.html#/title-slide)
+- 09 [Korrelation & Transformation](https://saskiaotto.github.io/uham-bio-data-science-2/09-correlation-transformation.html#1)
+- 10 [Lineare Regression](https://saskiaotto.github.io/uham-bio-data-science-2/10-regression.html#/title-slide)
+- 11 [Grundlagen des experimentellen Designs (Teil 1: Kriterien der Versuchsplanung & Poweranalyse Grundgleichung der Versuchsplanung & Designtypen)](https://saskiaotto.github.io/uham-bio-data-science-2/11-basics-exp-design-part1.html#/title-slide)
+- 12 [Grundlagen des experimentellen Designs (Teil 2: Grundgleichung der Versuchsplanung & Designtypen)](https://saskiaotto.github.io/uham-bio-data-science-2/12-basics-exp-design-part2.html#/title-slide)
 
 ## Lizenz
 
