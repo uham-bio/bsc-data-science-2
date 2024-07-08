@@ -34,6 +34,7 @@ Diese GitHub Repository enthält die folgenden Kurs-spezifischen HTML-Vorlesungs
 - 10 [Lineare Regression](https://saskiaotto.github.io/uham-bio-data-science-2/10-regression.html#/title-slide)
 - 11 [Grundlagen des experimentellen Designs (Teil 1: Kriterien der Versuchsplanung & Poweranalyse Grundgleichung der Versuchsplanung & Designtypen)](https://saskiaotto.github.io/uham-bio-data-science-2/11-basics-exp-design-part1.html#/title-slide)
 - 12 [Grundlagen des experimentellen Designs (Teil 2: Grundgleichung der Versuchsplanung & Designtypen)](https://saskiaotto.github.io/uham-bio-data-science-2/12-basics-exp-design-part2.html#/title-slide)
+- Add-On: [Beispiele zur Auswahl und Interpretation statistischer Tests](https://saskiaotto.github.io/uham-bio-data-science-2/13-test-selection.html#/title-slide)
 
 ## Lizenz
 
