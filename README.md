@@ -9,7 +9,9 @@ University of Hamburg**. *Data Science 2* introduces students into the
 world of inferential statistics, with a focus on the classic frequentist
 approaches using R.
 
-Course creator and instructor: **Dr. Saskia Otto**
+Course creator: **Dr. Saskia Otto**
+
+Course instructor: **Dr. Saskia Otto**, **Dr. Monika Eberhard**
 
 ## This repository
 
