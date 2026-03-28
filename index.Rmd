@@ -11,16 +11,15 @@ knitr::opts_chunk$set(echo = TRUE)
 **Grundlagen der Statistik und des experimentellen Designs (BIO-06.61-015 und BMARSYS-18.61-847)**
 
 
-## Modulbeschreibung <img src="images/uhh_logo.png" align="right" width="150" style="margin-left: 20px"/>
+## Modulbeschreibung <img src="images/dsb_logo.png" align="right" width="150" style="margin-left: 20px"/>
 
 Dies ist das zweite von vier Modulen des neu in den Bachelor-Studiengängen des Fachbereichs **Biologie** der **Universität Hamburg** eingeführten Data Science Programms. *Data Science 2* führt die Studierenden in die Welt der Datenerhebung, des experimentellen Designs und der inferenziellen Statistik ein, wobei der Schwerpunkt auf den klassischen frequentistischen Ansätzen mit R liegt.
 
-Modulverantwortliche: **Dr. Saskia Otto**
+Modulverantwortliche: **Dr. Saskia Otto**, **Dr. Monika Eberhard**
 
-## Vorlesungsfolien  SoSe 2025
+## Vorlesungsfolien  SoSe 2026
 
-Diese GitHub Repository enthält die folgenden Kurs-spezifischen HTML-Vorlesungsfolien (alle auf Deutsch), die bald von der aktuellen Kurs-Website abgerufen werden können: [https://datasciencebiology.blogs.uni-hamburg.de](https://datasciencebiology.blogs.uni-hamburg.de/course-portfolio/data-science-2/)
-
+Diese Github Repository enthält die Links zu den kursspezifischen und interaktiven HTML-Vorlesungsfolien (alle auf Deutsch), die von Saskia Otto mit [Quarto](https://quarto.org/) erstellt wurden: 
 
 - 01 [Einführung in die mathematische Statistik](https://saskiaotto.github.io/uham-bio-data-science-2/01-introduction.html#/title-slide)
 - 02 [Wahrscheinlichkeitstheorie](https://saskiaotto.github.io/uham-bio-data-science-2/02-probability-theory.html#/title-slide)
